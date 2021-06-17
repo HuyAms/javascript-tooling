@@ -121,7 +121,7 @@ Add this to `package.json`
 - `Plugins`: provides a set of new rules
 - Check [stackoverflow](https://stackoverflow.com/a/54522973/8737224)
 
-### 🛡 3. Validate script
+## 🛡 3. Validate script
 Now Eslint and Prettier are all set. We add a script that runs prettier and lint to validate our code
 
 🐨 **Script**
