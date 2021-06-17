@@ -11,7 +11,7 @@
 - Ability to validate code locally
 - Automatically run code validation with Husky and lint-staged
 
-### 🛠 1. [Prettier](https://prettier.io/docs/en/install.html)
+## 🛠 1. [Prettier](https://prettier.io/docs/en/install.html)
 
 - Make the code styling of the project more consistently
 - Stop argument about coding styles between
@@ -60,7 +60,7 @@ Add this to `package.json`
 
 To exclude files from formatting, create a `.prettierignore` file in the root of your project or you can use `--ignore-path` to ignore files listed in the gitignore [docs](https://prettier.io/docs/en/ignore.html)
 
-### ⚒️ 2. [ESLint](https://eslint.org/)
+## ⚒️ 2. [ESLint](https://eslint.org/)
 
 - Analyze your code to quickly find problems
 - Fix Automatically
@@ -110,7 +110,7 @@ Add this to `package.json`
     "lint": "eslint --ignore-path .gitignore \"**/*.+(js|jsx)\"",
 }
 ```
-#### ❓️ QA:
+### ❓️ QA:
 
 🙋‍♂️ Differences between `eslint` and `prettier`?
 - Use **prettier** for formatting and **linters** for catching bugs
@@ -146,7 +146,7 @@ npm install -D npm-run-all
 }
 ```
 
-### 🔭 4. [Husky](https://github.com/typicode/husky)
+## 🔭 4. [Husky](https://github.com/typicode/husky)
 
 - We don't want to run the validate script `npm run validate` manually before committing our code.
 - Husky helps us run a script automatically before committing the code
@@ -161,7 +161,7 @@ Basically we say that please automatically run `npm run validate` before every c
 
 Try to break the styling of your code then commit the files!
 
-### 🔬 5. [Lint-staged](https://github.com/typicode/husky)
+## 🔬 5. [Lint-staged](https://github.com/typicode/husky)
 
 Running lint and styling check on the whole project is slow, you only want to lint files that will be committed.
 
@@ -193,7 +193,7 @@ npx husky set .husky/pre-commit "npx lint-staged"
 
 Try to break the styling of your code then commit the files!
 
-### 🎁 6. [Stylelint](https://stylelint.io/)
+## 🎁 6. [Stylelint](https://stylelint.io/)
 🐨 **Dependencies**
 ```script
 npm install -D stylelint stylelint-config-standard stylelint-config-prettier
