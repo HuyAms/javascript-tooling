@@ -1,0 +1,24 @@
+{
+  "name": "javascript-tooling",
+  "version": "1.0.0",
+  "description": "## Why 👉 Preventing you from committing bad code. This is the cheapest thing you can do to make sure your code is valid",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuyAms/javascript-tooling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuyAms/javascript-tooling/issues"
+  },
+  "homepage": "https://github.com/HuyAms/javascript-tooling#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
