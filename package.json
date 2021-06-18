@@ -4,7 +4,26 @@
     "description": "## Why 👉 Preventing you from committing bad code. This is the cheapest thing you can do to make sure your code is valid",
     "main": "index.js",
     "scripts": {
-        "start": "parcel index.html --open --port 3000"
+        "start": "parcel index.html --open --port 3000",
+        "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|jsx|json|css|md|mdx|html)\"",
+        "format": "npm run prettier -- --write",
+        "check-format": "npm run prettier -- --list-different",
+        "lint": "eslint  \"**/*.+(js|jsx)\"",
+        "lint:css": "stylelint --ignore-path .gitignore --fix \"**/*.css\"",
+        "validate": "npm-run-all --parallel check-format lint",
+        "prepare": "husky install"
+    },
+    "lint-staged": {
+        "**/*.+(js|jsx)": [
+            "eslint"
+        ],
+        "**/*.+(ts|tsx|js|jsx|json|css|md|mdx|html)": [
+            "prettier --write",
+            "git add"
+        ],
+        "**/*.css": [
+            "stylelint --fix"
+        ]
     },
     "repository": {
         "type": "git",
@@ -22,6 +41,15 @@
         "react-dom": "^17.0.2"
     },
     "devDependencies": {
-        "prettier": "^2.3.1"
+        "eslint": "^7.28.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-react": "^7.24.0",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^2.3.1",
+        "stylelint": "^13.13.1",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-standard": "^22.0.0"
     }
 }
