@@ -4,7 +4,10 @@
     "description": "## Why 👉 Preventing you from committing bad code. This is the cheapest thing you can do to make sure your code is valid",
     "main": "index.js",
     "scripts": {
-        "start": "parcel index.html --open --port 3000"
+        "start": "parcel index.html --open --port 3000",
+        "prettier": "prettier --ignore-path .gitignore \"**/*.+(jsx|js|css|html|md)\"",
+        "format": "npm run prettier -- --write",
+        "check-format": "npm run prettier -- --list-different"
     },
     "repository": {
         "type": "git",

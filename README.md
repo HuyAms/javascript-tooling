@@ -67,8 +67,9 @@ To exclude files from formatting, create a `.prettierignore` file in the root of
 💰 Check the code [here](https://github.com/HuyAms/javascript-tooling/pull/3/commits/d2b16b27b0917f63f717155fea923b8ace37d2a2)
 
 Check how to enable auto format on save with prettier
-- [VSCode](https://prettier.io/docs/en/editors.html#visual-studio-code)
-- [Webstorm](https://prettier.io/docs/en/webstorm.html)
+
+-   [VSCode](https://prettier.io/docs/en/editors.html#visual-studio-code)
+-   [Webstorm](https://prettier.io/docs/en/webstorm.html)
 
 ## ⚒️ 2. [ESLint](https://eslint.org/)
 
@@ -127,8 +128,9 @@ Add this to `package.json`
 💰 Check the code [here](https://github.com/HuyAms/javascript-tooling/pull/3/commits/1b5b72aa8450017941e6ad7c3d4057be41c29761)
 
 See eslint feedback in your editor:
-- [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Webstorm](https://www.jetbrains.com/help/webstorm/eslint.html#ws_js_eslint_activate)
+
+-   [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+-   [Webstorm](https://www.jetbrains.com/help/webstorm/eslint.html#ws_js_eslint_activate)
 
 ### ❓️ QA:
 
@@ -275,13 +277,13 @@ We use [stylelint-config-prettier](https://github.com/prettier/stylelint-config-
 
 💰 Check the code [here](https://github.com/HuyAms/javascript-tooling/pull/3/commits/e0219a2c33fd1c745a7b2b1d9e62c6a90dc8c73a)
 
-- Working with **SCSS**? Check [here](https://github.com/kristerkari/stylelint-scss)
-- Working with **Styled-component**? Check [here](https://styled-components.com/docs/tooling#stylelint)
+-   Working with **SCSS**? Check [here](https://github.com/kristerkari/stylelint-scss)
+-   Working with **Styled-component**? Check [here](https://styled-components.com/docs/tooling#stylelint)
 
 ## Resources
+
 🍀 Check the [final code](https://github.com/HuyAms/javascript-tooling/pull/3/files)
 
 🍀 I learned this setup from Kent's [static-testing-tools](https://github.com/kentcdodds/static-testing-tools) repo. I added Stylelint and also migrated Husky to v6.
 
 🍀 Working with **TypeScript**? Check [here](https://github.com/kentcdodds/static-testing-tools/blob/main/.eslintrc)
-
