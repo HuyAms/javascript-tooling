@@ -17,7 +17,8 @@
             "eslint"
         ],
         "**/*.+(jsx|js|css|html|md)": [
-            "npm run format"
+            "npm run format",
+            "git add"
         ]
     },
     "repository": {
