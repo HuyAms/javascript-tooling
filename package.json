@@ -8,7 +8,8 @@
         "prettier": "prettier --ignore-path .gitignore \"**/*.+(jsx|js|css|html|md)\"",
         "format": "npm run prettier -- --write",
         "check-format": "npm run prettier -- --list-different",
-        "lint": "eslint --ignore-path .gitignore \"**/*.+(jsx|js)\""
+        "lint": "eslint --ignore-path .gitignore \"**/*.+(jsx|js)\"",
+        "validate": "npm run lint && npm run check-format"
     },
     "repository": {
         "type": "git",
@@ -27,6 +28,7 @@
     },
     "devDependencies": {
         "eslint": "^7.28.0",
+        "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-react": "^7.24.0",
         "prettier": "^2.3.1"
     }
