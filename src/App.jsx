@@ -1,6 +1,9 @@
 import React from 'react'
 
 function App() {
+
+    const unusedVariable = "hello"
+
     return (
         <>
             <h1>JavaScript tooling</h1>
