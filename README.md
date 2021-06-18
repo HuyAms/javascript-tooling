@@ -280,6 +280,8 @@ We use [stylelint-config-prettier](https://github.com/prettier/stylelint-config-
 
 ## Resources
 🍀 Check the [final code](https://github.com/HuyAms/javascript-tooling/pull/3/files)
+
 🍀 I learned this setup from Kent's [static-testing-tools](https://github.com/kentcdodds/static-testing-tools) repo. I added Stylelint and also migrated Husky to v6.
+
 🍀 Working with **TypeScript**? Check [here](https://github.com/kentcdodds/static-testing-tools/blob/main/.eslintrc)
 
